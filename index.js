@@ -11,7 +11,7 @@ bot.on('message', (msg) => {
     const chatId = msg.chat.id
     console.log(msg.chat.first_name + " " + msg.chat.last_name);
     if (msg.text === "/start") {
-        bot.sendMessage(chatId, "Assalomu alaykum " + msg.chat.first_name + " " + msg.chat.last_name + " 😇!!! 1nm0py ni botiga xushkelibsiz ")
+        bot.sendMessage(chatId, "Assalomu alaykum " + msg.chat.first_name + " " + msg.chat.last_name + " 😇!!! 1nm0py ni botiga xushkelibsiz!!! ")
     } else if (msg.text === "/help") {
         bot.sendMessage(chatId, "Assalomu alaykum. Qanday yordam bera olaman??? ")
     }
