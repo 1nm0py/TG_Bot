@@ -1,5 +1,6 @@
 const TelegramBot = require('node-telegram-bot-api');
 const { start } = require('repl');
+const port = process.env.PORT || 1080;
 
 const token = '7100657594:AAHg_ScSFYUi2WsKLLzjyDSi12g-eMayD_I';
 
@@ -19,3 +20,5 @@ bot.on('message', (msg) => {
         bot.sendMessage(chatId, "Assalomu alaykum. Xato ma'lumot!!! ")
     }
 });
+
+server.listen(port);
