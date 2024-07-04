@@ -8,6 +8,7 @@ const bot = new TelegramBot(token, { polling: true });
 
 // 
 
+
 bot.on('message', (msg) => {
     const chatId = msg.chat.id
     console.log(msg.chat.first_name + " " + msg.chat.last_name);
@@ -21,4 +22,4 @@ bot.on('message', (msg) => {
     }
 });
 
-server.listen(port);
+// server.listen(port);
