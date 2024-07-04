@@ -4,7 +4,7 @@ const port = process.env.PORT || 1080;
 
 const token = '7100657594:AAHg_ScSFYUi2WsKLLzjyDSi12g-eMayD_I';
 
-const bot = new TelegramBot(token, { polling: true });
+const bot = new TelegramBot(token);
 
 // 
 
